@@ -19,3 +19,6 @@ squash
 
 Splitting up a commit
 git reset HEAD~ //Resetea el commit antes de tu HEAD
+
+git revert HEAD:
+    si estamos colaborando con otros y queremos deshacer un commit que acabamos de realizar, podemos usar este comando.
